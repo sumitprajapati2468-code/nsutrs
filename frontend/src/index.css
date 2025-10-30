@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap');
 
 :root {
   font-family: 'Exo 2', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -125,4 +124,5 @@ canvas {
   .bg-video {
     display: none;
   }
+
 }
