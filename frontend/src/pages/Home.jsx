@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import bgVideo from '../assets/rider-saathi-bg-video.mp4'
+import bgVideo from '../assets/rider-saathi-bg-video-1.mp4'
 import features from '../data/features'
 import Footer from '../components/Footer'
 
@@ -229,5 +229,6 @@ const formatDistanceKm = (meters) => {
   const km = Math.round(meters / 1000)
   return `${km}`
 }
+
 
 export default Home
